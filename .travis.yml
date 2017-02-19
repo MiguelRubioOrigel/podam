@@ -8,6 +8,6 @@ branches:
   only:
     - develop
 general:
-  build_dir: api
+  build_dir: src
 after_success:
   - bash <(curl -s https://codecov.io/bash)
