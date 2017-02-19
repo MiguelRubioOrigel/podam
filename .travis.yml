@@ -3,7 +3,7 @@ jdk:
   - oraclejdk8
   - oraclejdk7
 script:
-  - mvn clean verify
+  - mvn clean install
 branches:
   only:
     - develop
