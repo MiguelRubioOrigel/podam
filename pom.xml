@@ -421,7 +421,7 @@
 		</snapshotRepository>
 		<repository>
 			<id>ossrh</id>
-			<url>http://central.maven.org/maven2/</url>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
 		</repository>
 		<site>
 			<id>github-project-site</id>
