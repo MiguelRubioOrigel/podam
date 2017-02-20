@@ -1,6 +1,7 @@
 dependencies:
   pre:
-    - mvn install:install-file -DgroupId=org.eclipse.mylyn.github -DartifactId=org.eclipse.egit.github.core -Dversion=3.1.0.201310021548-r -Dpackaging=jar -Dfile=${project.basedir}/org.eclipse.jgit-3.1.0.201310021548-r.jar
+    - echo {project.basedir}
+    - mvn install:install-file -DgroupId=org.eclipse.mylyn.github -DartifactId=org.eclipse.egit.github.core -Dversion=3.1.0.201310021548-r -Dpackaging=jar -Dfile=${HOME}/src/org.eclipse.jgit-3.1.0.201310021548-r.jar
 
 test:
  post:
